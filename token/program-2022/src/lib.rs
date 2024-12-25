@@ -101,7 +101,7 @@ pub fn try_ui_amount_into_amount(ui_amount: String, decimals: u8) -> Result<u64,
         .map_err(|_| ProgramError::InvalidArgument)
 }
 
-solana_program::declare_id!("TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb");
+solana_program::declare_id!("FLq5RqqHeHthk7yKtn7E3vdqaFhpNNi9suB6NNXBrrdA");
 
 /// Checks that the supplied program ID is correct for spl-token-2022
 pub fn check_program_account(spl_token_program_id: &Pubkey) -> ProgramResult {

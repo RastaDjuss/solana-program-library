@@ -34,5 +34,9 @@
     },
     "packageManager": "pnpm@8.14.3",
     "prettier": "@solana/prettier-config-solana",
-    "name": "solana-program-library"
+    "name": "solana-program-library",
+    "dependencies": {
+        "@solana/spl-governance": "^0.3.28",
+        "@solana/web3.js": "^1.95.5"
+    }
 }
